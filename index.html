@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>60 seconds®</title>
-</head>
-<body>
-  <h1>Francesco Caraviello & Riccardo Montanaro</h1>
-  <p>La nostra idea era di creare un gioco, in cui bisogna sopravvivere ad un esplosione nucleare e apettare i soccorsi. Mentre si attendono i soccorsi si consumano le provviste, ed ogni giorno si ha un evento randomico che influisce sugli sviluppi del gioco.</p>
-</body>
+
+  <head>
+    <title>Francesco Caraviello & last but not at list, Riccardo Montanaro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <h1 id="title"> 60 seconds® </h1>
+      <p>La nostra idea era di creare un gioco, in cui bisogna sopravvivere ad un esplosione nucleare e apettare i soccorsi. Mentre si attendono i soccorsi si consumano le provviste, ed ogni giorno si ha un evento randomico che influisce sugli sviluppi del gioco.</p>
+      
+      <p id="contatore-lbl">E' caduta una bomba, scappa!</p>
+      <input type="button" value="Dormi, e ti risvegli domani mattina" onclick="nextDay()"> <br> <br> <br> 
+
+      <p>Salute</p>
+        <div id="myProgress">
+          <div id="myBar"></div>
+        </div><br>
+
+      <p>Sete</p>
+        <div id="myProgress1">
+          <div id="myBar1"></div>
+        </div><br>
+
+      <p>Fame</p>
+        <div id="myProgress2">
+          <div id="myBar2"></div>
+        </div><br>
+
+      <p>Radioattività</p>
+        <div id="myProgress3">
+          <div id="myBar3"></div>
+        </div> <br> <br>
+        
+      <p id="sticazzi">Evento del giorno</p>
+      <input id="scomparire" type="button" value="Premi CUI per accettare " onclick="tastaTesticula()"> <br> <br>
+      <p id="morte"></p>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+  
 </html>
