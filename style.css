@@ -1,0 +1,53 @@
+body{
+  background-color: #F6FA71;
+  margin: 10px;
+}
+
+#title{
+  text-align: center;
+}
+
+#myProgress {
+  width:50%;
+  background-color: red;
+}
+
+#myBar {
+  max-width: 100%;
+  height: 30px;
+  background-color: green;
+}
+
+#myProgress1 {
+  width:50%;
+  background-color: #BEF6FF;
+}
+
+#myBar1 {
+  max-width: 100%;
+  height: 30px;
+  background-color: #31E0FB;
+}
+
+#myProgress2 {
+  width:50%;
+  background-color: #ff8000;
+}
+
+#myBar2 {
+  max-width: 100%;
+  height: 30px;
+  background-color: #955E2C;
+}
+
+#myProgress3 {
+  width:50%;
+  background-color: #7FFF7F;
+}
+
+#myBar3 {
+  max-width: 100%;
+  width : 0%;
+  height: 30px;
+  background-color:#1aff1a;
+}
