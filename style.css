@@ -13,6 +13,10 @@ body{
   padding: 10px 15px;
 }
 
+.media {
+  background-color: #FFBD5E;
+}
+
 #paragrafoEventoQuotidiano{
   text-align: center;
 }
@@ -26,7 +30,7 @@ body{
   background-color: red;
 }
 
-#myBar {
+#myBar0 {
   max-width: 100%;
   height: 30px;
   background-color: green;
@@ -66,3 +70,4 @@ body{
   height: 30px;
   background-color:#1aff1a;
 }
+
