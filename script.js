@@ -80,13 +80,12 @@ funFacts = [
   "fatto": "A volte, se i banditi ti colpiscono abbastanza forte, possono procurati un bel trauma cranico, a quel punto farai un sacco di bei sogni, chiamati allucinazioni."}
 ]
 
+
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min)
   max = Math.floor(max)
   return Math.floor(Math.random() * (max - min)) + min
 }
-
-
 
 
 function imgCard(){
@@ -148,7 +147,7 @@ function nextDay(){
     barre[1] -= 8
     barre[2] -= 4
 
-    while (giorno<=15 && eventi[ran].evento == "Sono venuti a prelevarti i militari, vuoi andare con loro?") {
+    while (giorno<=15 && eventi[ran].evento === "Sono venuti a prelevarti i militari, vuoi andare con loro?") {
       ran = getRandomIntInclusive(0, eventi.length)
     }
 
